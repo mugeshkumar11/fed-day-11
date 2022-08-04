@@ -838,21 +838,75 @@ form .formgroup {
 .footer-flex {
     display: flex;
     flex-wrap: wrap;
-    background-color: #9eccf4;
     padding-top: 40px;
 }
 
 .footer-flex .footer-box {
     width: 23.33%;
-    height: 200px;
-    outline: solid 1px blue;
+    height: auto;
 }
 .footer-flex .footerbox-1{
     width: 30%;
     height: 200px;
     outline: solid 1px red;
 }
+.footer-box  li,a{
+   margin-top: 20px;
+   color: #fff;
+    transition: 0.3s;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
 
+}
+.footer-box i{
+    padding-right: 2px;
+    color: #9eccf4;
+    font-size: 18px;
+    line-height: 1;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer-box h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer-box h4,p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+.footericon a{
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: #768fa6;
+    line-height: 1;
+    margin-right: 4px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 14px;
+    
+}
+.footericon:hover a{
+    transition: all 0.3s ease;
+
+}
+.footericon i{ 
+    padding-bottom: 50px;
+}
 .legal-flex {
     display: flex;
     justify-content: center;
