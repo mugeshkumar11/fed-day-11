@@ -833,12 +833,13 @@ form .formgroup {
 .footer {
     margin-top: 60px;
     background-color: #5c768d;
+    border-bottom: 1px solid #67839c;
+    padding: 60px 0 30px 0;
     
 }
 .footer-flex {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
 }
 
 .footer-flex .footer-box {
@@ -848,67 +849,141 @@ form .formgroup {
 .footer-flex .footerbox-1{
     width: 30%;
     height: 200px;
-    outline: solid 1px red;
 }
-.footer-box  li,a{
-   margin-top: 20px;
-   color: #fff;
-    transition: 0.3s;
-    line-height: 1;
-    font-size: 14px;
+.footer-box h2{
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box h4 {
+    padding-bottom: 20px;
+    font-size: 15px;
     font-weight: 400;
-
+    color: #fff;
+    font-family: "Raleway", sans-serif;
 }
-.footer-box i{
-    padding-right: 2px;
+.footer-box p {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box p span{
+    font-weight: 700;
+}
+.footericon1{
+    padding-top: 30px;
+    font-size:15px;
+    font-weight: 400;
+    padding-left: 4px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footericon1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-box h3{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box li {
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box ul li span{
+    color:#fff;
+}
+.footer-box a{
+    text-decoration: none;
+}
+.footer-box ul li i {
+   padding-right: 2px;
     color: #9eccf4;
     font-size: 18px;
     line-height: 1;
 }
-.footer-box a{
-    text-decoration: none;
-    color: #fff;
-}
-.footer-1 h2{
-    font-size: 20px;
+.footerbox-1 h3{
+    padding-bottom: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
-    position: relative;
-    padding-bottom: 12px;
-}
-.footer-box h3{
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-}
-.footer-box h4,p{
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 10px;
     font-family: "Raleway", sans-serif;
-    color: #fff;
 }
-.footericon a{
-    width: 36px;
-    height: 36px;
+.footerbox-1 p{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box:hover {
+    color: #007aff;
+}
+.footerbox-1 form {
+    display: flex;
+    padding-top: 25px;
+}
+form input {
+    padding-bottom: 20px;
+    padding-left: 45px;
+}
+form button{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+}
+.footericon1 a{
+    font-size: 18px;
     display: inline-block;
     background: #768fa6;
-    line-height: 1;
+    color: #fff;
+    line-height: 36px;
     margin-right: 4px;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: center;
-    padding-top: 14px;
-    
+    width: 36px;
+    height: 36px;
+    justify-content: center;
 }
-.footericon:hover a{
-    transition: all 0.3s ease;
-
+.footericon1 a:hover{
+    background-color:#007aff;
 }
-.footericon i{ 
-    padding-bottom: 50px;
+.footer-box span:hover{
+    color: #007aff;
+}
+.legal {
+    background-color: #587187;
 }
 .legal-flex {
     display: flex;
     justify-content: center;
     height: 100px;
+    padding-top: 30px;
+}
+.copyright h3{
+  color: #fff;
+}
+.copyright span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.copyright h4{
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: #9eccf4;
 }
